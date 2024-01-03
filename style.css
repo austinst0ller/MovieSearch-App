@@ -100,7 +100,7 @@ label {
   position: absolute;
   right: 0;
   top: 78%;
-  max-height: 400px;
+  max-height: 325px;
   overflow-y: scroll;
   z-index: 10;
 }
