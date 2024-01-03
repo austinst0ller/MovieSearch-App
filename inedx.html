@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LMN Movie Search</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="nav__container">
+      <div class="nav__wrapper">
+        <a href="#" class="nav__logo">
+          <img class="logo" src="./assets/lemon.svg" alt="logo">
+        </a>
+        <p class="logo__text">lmn</p>
+      </div>
+    </div>
+
+    <div class="search__container">
+      <div class="searchbar">
+        <label for="search">browse our movies</label>
+        <input type="text" class="form__control" placeholder="Search ..." id="movie__search--box">
+      
+        <div class="search__list" id="search__list">
+
+          <div class="search__list--elem">
+            <div class="search__elem--thumbnail">
+              <img src="./assets/blade-runner-cover.jpg" alt="">
+            </div>
+            <div class="search__elem--info">
+              <h3>Blade Runner 2049</h3>
+              <p>2017</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="results__container">
+        <div class="result__display" id="result__display">
+          <!-- movie info -->
+          <div class="movie__poster">
+            <img src="./assets/blade-runner-cover.jpg" alt="">
+          </div>
+          <div class="movie__info">
+            <h3 class="movie__title">Blade Runner 2049</h3>
+            <ul class="movie__info--more">
+              <li class="year">Year: 2017</li>
+              <li class="rating">Rating: R</li>
+              <li class="released">Released: 06 Oct 2017</li>
+            </ul>
+            <p class="genre"><b>Genre:</b> Action, Drama, Mystery</p>
+            <p class="writer"><b>Writer:</b> Hampton Fancher, Michael Green, Philip K. Dick</p>
+            <p class="actors"><b>Actors:</b> Harrison Ford, Ryan Gosling, Ana de Armas</p>
+            <p class="plot"><b>Plot:</b> Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.</p>
+            <p class="language"><b>Language:</b> English, Finnish, Japanese, Hungarian, Russian, Somali, Spanish</p>
+            <p class="awards"><b><i class="fas fa-award"></i></b> Won 2 Oscars. 99 wins & 163 nominations total</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- movie data js -->
+  <script src="app.js"></script>
+</body>
+
+</html>
